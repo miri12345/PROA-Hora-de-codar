@@ -4,7 +4,7 @@ programa {
     real altura
     real peso_ideial
 
-    escreva("Digite seu sexo, sendo 1 para feminino e 2 para masculino: ")
+    escreva("Digite seu gênero biológico, sendo 1 para feminino e 2 para masculino: ")
     leia(sexo)
     escreva("Agora digite sua altura: ")
     leia(altura)
@@ -14,7 +14,7 @@ programa {
     } senao{
       peso_ideial = (72.7 * altura) - 58
     }
-    escreva("Seu peso ideial � ",peso_ideial," kg")
+    escreva("Seu peso ideial é ",peso_ideial," kg")
 
   }
 }
